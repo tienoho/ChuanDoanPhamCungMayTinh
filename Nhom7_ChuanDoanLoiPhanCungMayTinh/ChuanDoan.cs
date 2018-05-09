@@ -110,6 +110,7 @@ namespace Nhom7_ChuanDoanLoiPhanCungMayTinh
         {
              _lblMiniMax.BackColor = Color.WhiteSmoke;
         }
+       
 
         private void OnBtnChuanDoanMouseMove(object sender, MouseEventArgs e)
         {
@@ -122,9 +123,12 @@ namespace Nhom7_ChuanDoanLoiPhanCungMayTinh
         }
         private void OnBtnKetLuanMouseMove(object sender, MouseEventArgs e)
         {
-            _pnlRight.BackgroundImage = Properties.Resources.background;
+            _btnKetLuan.BackgroundImage = Properties.Resources.background;
         }
-
+        private void OnBtnKetLuanMouseLeave(object sender, EventArgs e)
+        {
+            _btnKetLuan.BackgroundImage = Properties.Resources.background_top;
+        }
         private void OnBtnQuanLySuKienMouseMove(object sender, MouseEventArgs e)
         {
             _btnQuanLySuKien.BackgroundImage = Properties.Resources.background;
@@ -182,8 +186,9 @@ namespace Nhom7_ChuanDoanLoiPhanCungMayTinh
             _lastPoint = e.Location;
         }
 
+
         #endregion Event
 
-       
+
     }
 }

@@ -63,7 +63,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image =Properties.Resources.giphy;
+            this.pictureBox1.Image = global::Nhom7_ChuanDoanLoiPhanCungMayTinh.Properties.Resources.giphy;
             this.pictureBox1.Location = new System.Drawing.Point(22, 74);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(555, 358);
@@ -74,7 +74,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = Properties.Resources.background;
+            this.BackgroundImage = global::Nhom7_ChuanDoanLoiPhanCungMayTinh.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(600, 534);
             this.Controls.Add(this.pictureBox1);

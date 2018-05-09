@@ -64,8 +64,8 @@ namespace Nhom7_ChuanDoanLoiPhanCungMayTinh
                 timeProgress.Stop();
 
                 this.Hide();
-               // _frmChuanDoanBenhTim ChuanDoanBenhTim = new _frmChuanDoanBenhTim();
-               // ChuanDoanBenhTim.Show();
+               _frmChuanDoan ChuanDoan = new _frmChuanDoan();
+                ChuanDoan.Show();
             }
             else
             {
@@ -77,6 +77,7 @@ namespace Nhom7_ChuanDoanLoiPhanCungMayTinh
                     {
                         i = 0;
                         Random();
+                        
                     }
                 }
             }

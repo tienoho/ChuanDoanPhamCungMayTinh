@@ -87,6 +87,7 @@
             this._btnKetLuan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this._btnKetLuan.UseVisualStyleBackColor = true;
             this._btnKetLuan.Click += new System.EventHandler(this.KetLuan_Click);
+            this._btnKetLuan.MouseLeave += new System.EventHandler(this.OnBtnKetLuanMouseLeave);
             this._btnKetLuan.MouseMove += new System.Windows.Forms.MouseEventHandler(this.OnBtnKetLuanMouseMove);
             // 
             // _btnChuanDoan

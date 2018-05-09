@@ -16,7 +16,8 @@ namespace Nhom7_ChuanDoanLoiPhanCungMayTinh
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-           Application.Run(new _frmChuanDoan());
+            // Application.Run(new _frmChuanDoan());
+            Application.Run(new KhoiDong());
         }
     }
 }

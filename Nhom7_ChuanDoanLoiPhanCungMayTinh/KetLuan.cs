@@ -139,11 +139,11 @@ namespace Nhom7_ChuanDoanLoiPhanCungMayTinh
         }
 
         /// <summary>
-        /// hàm sử lý sự kiện CellClick của dgvTrieuChung
+        /// hàm sử lý sự kiện CellClick của DgvKetLuanCellClick
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void OnDgvTrieuChungCellClick(object sender, DataGridViewCellEventArgs e)
+        private void OnDgvKetLuanCellClick(object sender, DataGridViewCellEventArgs e)
         {
             txtID.Text = dgvTrieuChung.CurrentRow.Cells[0].Value.ToString();
             txtMoTa.Text = dgvTrieuChung.CurrentRow.Cells[1].Value.ToString();

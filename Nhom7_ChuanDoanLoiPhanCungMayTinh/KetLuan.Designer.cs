@@ -59,7 +59,7 @@
             this.dgvTrieuChung.RowHeadersVisible = false;
             this.dgvTrieuChung.Size = new System.Drawing.Size(735, 321);
             this.dgvTrieuChung.TabIndex = 22;
-            this.dgvTrieuChung.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTrieuChung_CellContentClick);
+            this.dgvTrieuChung.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OnDgvKetLuanCellClick);
             // 
             // Column1
             // 
@@ -146,7 +146,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(18, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(41, 16);
             this.label2.TabIndex = 15;
             this.label2.Text = "Mô tả";
             // 
@@ -155,7 +155,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(18, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(18, 13);
+            this.label1.Size = new System.Drawing.Size(21, 16);
             this.label1.TabIndex = 14;
             this.label1.Text = "ID";
             // 
@@ -176,7 +176,7 @@
             this.lblCount.AutoSize = true;
             this.lblCount.Location = new System.Drawing.Point(819, 180);
             this.lblCount.Name = "lblCount";
-            this.lblCount.Size = new System.Drawing.Size(0, 13);
+            this.lblCount.Size = new System.Drawing.Size(0, 16);
             this.lblCount.TabIndex = 23;
             // 
             // panel1
@@ -211,7 +211,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            //this.PerformLayout();
+            this.PerformLayout();
 
         }
 
