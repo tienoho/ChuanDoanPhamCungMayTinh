@@ -1,0 +1,39 @@
+﻿R1: G1 ^ D2 -> C2
+R2: C2 -> KL2
+R3: G2 ^ M1 -> KL3
+R4: G2 ^ M2 -> KL31
+R5: KL31 ^ M3 -> KL4
+R6: KL31 ^ M4 -> KL5
+R7: G3 ^ H1 -> KL6
+R8: G3 ^ H2 -> KL7
+R9: KL7 ^ H3 -> KL8
+R10: G3 ^ H2 ^ H4 -> KL9
+R11: G4 ^ B1 -> KL9
+R12: G4 ^ B2 -> KL10
+R13: G4 ^ B3 -> KL11
+R14: G4 ^ B4 -> KL12
+R15: G4 ^ B5 -> KL13
+R16: G4 ^ B6 -> KL13
+R17: G4 ^ B7 -> KL14
+R18: G4 ^ B8 -> KL14
+R19: G4 ^ B9 -> KL13
+R20: G4 ^ B10 -> KL13
+R21: G4 ^ B11 -> KL15
+R22: G4 ^ B12 -> KL16
+R23: G4 ^ B13 -> KL17
+R24: G4 ^ B14 -> KL18
+R25: G4 ^ B15 -> KL19
+R26: G4 ^ B16 -> KL20
+R27: G4 ^ B17 -> KL20
+R28: G4 ^ B18 -> KL21
+R29: G4 ^ B19 -> KL22
+R30: G4 ^ B20 -> KL23
+R31: G4 ^ B21 -> KL24
+R32: G4 ^ B22 -> KL25
+R33: G4 ^ B23 -> KL25
+R34: G4 ^ B24 -> KL26
+R35: G4 ^ B25 -> KL27
+R36: G4 ^ B26 -> KL28
+R37: G4 ^ B27 -> KL29
+R38: C2 ^ C1 -> KL1
+R39: G1 ^ C1 ^ D1 ^ D4 -> KL30

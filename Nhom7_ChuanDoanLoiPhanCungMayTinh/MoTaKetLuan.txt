@@ -1,0 +1,30 @@
+﻿KL1: Nguồn đã bị hỏng
+KL2: Cáp nguồn bị hỏng hoặc bị lỏng
+KL3: Có thể do hỏng cáp nối.
+KL4: Nút nguồn bị hỏng
+KL5: Màn hình bị hỏng
+KL6: Hỏng cáp nối với ổ cứng
+KL7: Hệ điều hành bị lỗi
+KL8: ổ cứng bị hỏng
+KL9: Mainboard có vấn đề.
+KL10: Không thể đọc được thông tin cấu hình lưu trong CMOS.
+KL11: BIOS cần phải thay.
+KL12: Chíp đồng hồ trên mainboard bị hỏng.
+KL13: Bo mạch chủ có vấn đề.
+KL14: Bạn cần phải thay bo mạch chủ.
+KL15: Xem lại RAM.
+KL16:  RAM của bạn có vấn đề. 
+KL17: Một trong những chíp gắn trên mainboard bị hỏng. 
+KL18: Chíp kiểm tra bàn phím bị hỏng.
+KL19: không tìm thấy card màn hình
+KL20: Card màn hình của bạn không hoạt động
+KL21: Một chíp trên mainboard bị hỏng
+KL22: mainboard có vấn đề
+KL24: card bổ sung cắm trên bo mạch chủ bị hỏng
+KL25: Lỗi bo mạch chủ.
+KL26: Đồng hồ trên bo mạch bị hỏng
+KL27: Có vấn đề với cổng nối tiếp
+KL28: Có vấn đề với cổng song song
+KL29: Bộ đồng xử lý số có vấn đề
+KL30: Quạt nguồn bị hỏng
+KL31: Màn hình không lên
